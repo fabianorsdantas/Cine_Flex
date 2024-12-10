@@ -41,7 +41,7 @@ export default function SeatsPage({ buyers, setBuyers, movieInfo, setMovieInfo }
   ) : (
     <>
       <Page>
-        <Title>Selecione o filme</Title>
+        <Title>Selecione o(s) assento(s)</Title>
         <ul>
           {seats.map(s => (
             <Seat key={s.id} {...s} buyers={buyers} setBuyers={setBuyers} />

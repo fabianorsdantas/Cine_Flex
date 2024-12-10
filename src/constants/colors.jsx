@@ -1,4 +1,4 @@
-export const COLORS = {
+export let COLORS = {
     cyan: {
       border: "#0E7D71",
       fill: "#1AAE9E"

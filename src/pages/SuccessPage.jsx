@@ -4,7 +4,7 @@ import styled from "styled-components";
 import BuyerInfo from "../components/BuyerInfo";
 import MovieInfo from "../components/MovieInfo";
 import SeatsInfo from "../components/SeatsInfo";
-import { OrangeButton } from "../styles/OrangeButton";
+import { SelectionButton } from "../styles/SelectionButton";
 import { Title } from "../styles/Title";
 
 export default function SuccessPage({ buyers, setBuyers, movieInfo }) {
@@ -29,7 +29,7 @@ export default function SuccessPage({ buyers, setBuyers, movieInfo }) {
       ))}
 
       <Wrapper>
-        <OrangeButton onClick={goBack}>Voltar pra Home</OrangeButton>
+        <SelectionButton onClick={goBack}>Voltar pra Home</SelectionButton>
       </Wrapper>
     </Page>
   );

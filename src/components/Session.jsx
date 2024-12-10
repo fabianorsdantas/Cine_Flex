@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
-import { OrangeButton } from "../styles/OrangeButton";
+import { SelectionButton } from "../styles/SelectionButton";
 
 export default function Session({ weekday, date, showtimes }) {
   const navigate = useNavigate();
@@ -18,7 +18,7 @@ export default function Session({ weekday, date, showtimes }) {
       <ul>
         {showtimes.map(s => (
           <li key={s.id}>
-            <OrangeButton onClick={() => gotoSession(s.id)}>{s.name}</OrangeButton>
+            <SelectionButton onClick={() => gotoSession(s.id)}>{s.name}</SelectionButton>
           </li>
         ))}
       </ul>
@@ -36,7 +36,7 @@ const Container = styled.div`
 
   ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 8px;
   }

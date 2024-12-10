@@ -16,7 +16,7 @@ export default function Banner({ setBuyers }) {
     <Header>
       {location.pathname !== "/" && <img src={arrow} alt="back arrow" onClick={goBack} />}
       <Link to="/">
-        <h1>Cineflex</h1>
+        <h1>CineFlex</h1>
       </Link>
     </Header>
   );
@@ -26,7 +26,7 @@ const Header = styled.header`
   width: 100vw;
   height: 67px;
 
-  background: #c3cfd9;
+  background: #EE897F;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,9 +42,13 @@ const Header = styled.header`
   }
 
   h1 {
+    font-family: Raleway;
     font-size: 34px;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: #e8833a;
+    font-weight: 600;
+    line-height: 39.92px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FADBC5;
   }
 `;

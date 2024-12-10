@@ -111,6 +111,15 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Roboto', sans-serif;
-    color: #293845;
+    font-family: Sarala;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39.13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#FFFFFF;
+    background: #212226;
   }
 `;

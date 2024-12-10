@@ -35,7 +35,7 @@ export default function SessionsPage({ movieInfo, setMovieInfo }) {
   ) : (
     <>
       <Page>
-        <Title>Selecione o filme</Title>
+        <Title>Selecione o dia e horário</Title>
         <ul>
           {sessions.map(s => (
             <Session key={s.id} {...s} />

@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 import { postPurchase } from "../services/api";
-import { OrangeButton } from "../styles/OrangeButton";
+import { SelectionButton } from "../styles/SelectionButton";
 import BuyerInput from "./BuyerInput";
 
 export default function BuyersForm({ buyers, setBuyers }) {
@@ -28,7 +28,7 @@ export default function BuyersForm({ buyers, setBuyers }) {
       ))}
 
       <Wrapper>
-        <OrangeButton type="submit">Reservar assento(s)</OrangeButton>
+        <SelectionButton type="submit">Reservar assento(s)</SelectionButton>
       </Wrapper>
     </Form>
   );
