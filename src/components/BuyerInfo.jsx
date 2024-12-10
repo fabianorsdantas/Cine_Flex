@@ -6,7 +6,7 @@ import { formatCPF } from "../utils/formatCPF";
 export default function BuyerInfo({ seat, name, cpf }) {
   return (
     <>
-      <Subtitle>Comprador ({seat})</Subtitle>
+      <Subtitle>Comprador(a)</Subtitle>
 
       <InfoContainer>
         <Text>Nome: {name}</Text>

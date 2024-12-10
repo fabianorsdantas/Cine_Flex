@@ -5,7 +5,7 @@ import { Text } from "../styles/Text";
 export default function MovieInfo({ title, date }) {
   return (
     <>
-      <Subtitle>Filme e sessão</Subtitle>
+      <Subtitle>Filme e Sessão</Subtitle>
 
       <InfoContainer>
         <Text>{title}</Text>

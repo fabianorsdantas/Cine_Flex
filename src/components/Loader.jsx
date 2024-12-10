@@ -11,7 +11,7 @@ export default function Loader() {
         ariaLabel="MagnifyingGlass-loading"
         wrapperClass="MagnifyingGlass-wrapper"
         glassColor="#c0efff"
-        color="#E8833A"
+        color="#fafafa"
       />
     </Page>
   );

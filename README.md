@@ -20,7 +20,7 @@ Baixe o repositório do projeto no github e execute em sua máquina.
 ## 💻 Preview
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;" >
-<img src="./public/preview/zap-1.png" style="margin: 10px">
+<img src="./public/preview/cineflex.png" style="margin: 10px">
 
 ## 🎮 Usando
 

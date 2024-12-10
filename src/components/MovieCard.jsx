@@ -13,15 +13,21 @@ export default function MovieCard({ id, title, posterURL }) {
 
 const Card = styled.div`
   width: 145px;
-  height: 209px;
+  height: 210px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background: #fff;
+  
+  top: 145px;
+  left: 29px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
-  border-radius: 3px;
+  
+  
 
   img {
     width: 129px;

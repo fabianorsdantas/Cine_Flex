@@ -25,7 +25,7 @@ export default function BuyerInput({ index, buyer, updateBuyers }) {
       </div>
 
       <div>
-        <label htmlFor={`cpf-${buyer.idSeat}`}>CPF do comprador:</label>
+        <label htmlFor={`cpf-${buyer.idSeat}`}>CPF do comprador(a):</label>
         <input
           type="text"
           name="cpf"

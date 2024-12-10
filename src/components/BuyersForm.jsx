@@ -28,7 +28,7 @@ export default function BuyersForm({ buyers, setBuyers }) {
       ))}
 
       <Wrapper>
-        <SelectionButton type="submit">Reservar assento(s)</SelectionButton>
+        <SelectionButton type="submit">Reservar Assento(s)</SelectionButton>
       </Wrapper>
     </Form>
   );

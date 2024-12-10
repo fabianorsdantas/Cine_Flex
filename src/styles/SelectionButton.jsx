@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const SelectionButton = styled.button`
-  background: #e8833a;
+  background: #EE897F;
+
   border-radius: 3px;
   padding: 11px 22px;
   color: #fafafa;

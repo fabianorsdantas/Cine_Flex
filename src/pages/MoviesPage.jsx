@@ -25,7 +25,7 @@ export default function MoviesPage() {
     <Loader />
   ) : (
     <Page>
-      <Title>Selecione o filme</Title>
+      <Title>Filmes em Cartaz</Title>
       <ul>
         {movies.map(m => (
           <MovieCard key={m.id} id={m.id} title={m.title} posterURL={m.posterURL} />

@@ -18,9 +18,7 @@ export default function SuccessPage({ buyers, setBuyers, movieInfo }) {
   return (
     <Page>
       <BoldTitle>
-        Pedido feito
-        <br />
-        com sucesso!
+        Pedido Finalizado!
       </BoldTitle>
       <MovieInfo title={movieInfo.title} date={movieInfo.date.success} />
       <SeatsInfo seats={buyers.map(b => b.nameSeat)} />
@@ -29,7 +27,7 @@ export default function SuccessPage({ buyers, setBuyers, movieInfo }) {
       ))}
 
       <Wrapper>
-        <SelectionButton onClick={goBack}>Voltar pra Home</SelectionButton>
+        <SelectionButton onClick={goBack}>Voltar para a tela inicial</SelectionButton>
       </Wrapper>
     </Page>
   );

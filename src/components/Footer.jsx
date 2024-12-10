@@ -28,7 +28,7 @@ const Container = styled.footer`
   align-items: center;
   gap: 14px;
 
-  background: #dfe6ed;
+  background: #EE897F;
   border-top: 1px solid #9eadba;
   position: fixed;
   bottom: 0;
@@ -44,7 +44,7 @@ const Container = styled.footer`
 
     background: #fff;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
+    border-radius: 3px;
     img {
       width: 48px;
       height: 72px;
