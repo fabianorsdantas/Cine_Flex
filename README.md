@@ -15,20 +15,17 @@
 Nesse projeto fizemos um aplicativo que simula um sistema de reserva de bilhetes de um cinema. O desenvolvimento envolveu várias etapas e a integração de diferentes tecnologias como HTML5, CSS3, JavaScript, React e Vite. Com esse aplicativo é possível escolher o filme que está em cartaz, o dia  e a sessão que deseja comparecer.
 
 ## 🚀 Instalação
-Baixe o repositório do projeto no github e execute em sua máquina.
+Baixe o repositório do projeto no github e execute em sua máquina. Ou se preferir, acesse o aplicativo online no link abaixo:
 
+💬 [**Acesse aqui**](https://cine-flex-r4pttri7a-fabianorsdantas-projects.vercel.app/)
 ## 💻 Preview
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;" >
 <img src="./public/preview/cineflex.png" style="margin: 10px">
 
-## 🎮 Usando
-
-<img src="./public/preview/zap-recall.gif" style="margin: 10px">
-
 </div>
 
 $~$
 
-[🔝 De volta ao topo](#Zap_Recall)
+[🔝 De volta ao topo](#CineFlex)
 
